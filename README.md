@@ -16,11 +16,10 @@
   - matplotlib
   - statsmodels
   - scipy
-  - argparse
 
 Установка необходимых библиотек:
 ```
-  pip install numpy pandas seaborn matplotlib statsmodels scipy argparse
+  pip install numpy pandas seaborn matplotlib statsmodels scipy
 ```
 Установка зависимостей:
 ```
