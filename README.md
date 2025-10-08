@@ -43,8 +43,10 @@ python acf.py --length --seasonal_period --seasonal_strength --noise_std --rando
 ```
 python acf.py --length 1500 --seasonal_period 12 --seasonal_strength 2 --noise_std 0.8 --max_lags 72 --threshold 0.3 --save_path graphic
 ```
-Сохранит график ACF в graphic_acf.png, а график с пиками в graphic_acf_with_peaks.png  
+Сохранит график ACF в graphic_acf.png, а график ACF с пиками в graphic_acf_with_peaks.png  
+![](https://github.com/eshsen/DA-3-14/blob/main/graphic_acf.png)
 
+![](https://github.com/eshsen/DA-3-14/blob/main/graphic_acf_with_peaks.png)
 Также в терминале появится вывод о сезонности
 ```
 Пики ACF на заданных лагах:
